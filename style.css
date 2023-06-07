@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+
+/*********     container     *********/
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color:rgb(248, 242, 242);
+}
+
+
+
+
+/*********     white-nav     *********/
+
+
+.white-nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 10px; */
+}
+.logo{
+    height: 90px;
+    width: 40%;
+
+}
+
+.logo img{
+    height: 90px;
+    width: 250px;
+    padding-top: 10px;
+    
+
+}
+.content{
+    height:100px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+
+}
+.white-nav ul{
+    list-style: none;
+}
+.content li{
+    font-size: 16px;
+    color:rgb(97, 97, 97);
+    font-weight: 600;
+}
+.content button{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(9, 59, 91);
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  
+}
+
+
+
+/*********     mid-section     *********/
+
+
+
+.mid-section{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}  
+
+
+
+
+/*********     text-section     *********/
+
+
+
+.text-section{
+    height: 350px;
+    width: 50%;
+    padding-top: 30px;
+    margin-left:40px; 
+}
+.text-section h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+.text-section p{
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 20px;
+    color: rgb(111, 102, 102);
+}
+.button-section{
+    height: 80px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 20px;
+}
+.start-button button{
+    height: 50px;
+    width: 180px;
+    background-color: rgb(9, 59, 91);
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    
+}
+.button-section ul{
+    list-style: none;
+}
+.learn-button{
+    height: 50px;
+    width: 130px;
+
+    
+}
+.learn-button button{
+    height: 50px;
+    width: 190px;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600; 
+
+    
+}
+
+
+
+
+/*********     image-section     *********/
+
+
+.image-section{
+    height: 380px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}  
+.image-section img{
+    height: 380px;
+    width: 420px;
+
+}  
+
+
+
+
+/*********     featured-section     *********/
+
+
+
+.featured-section{
+    height:150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 60px;
+    margin-top: 20px;    
+
+}   
+.featured-section h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+.feature-logo{
+    height: 100px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.featured-section ul{
+    list-style: none;
+}
+.feature-logo img{
+    height: 80px;
+    width: 160px;
+    padding-top: 10px;
+    
+}
+
+.feature-logo li:nth-child(3){
+    padding-top: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px){
+
+
+      .container{
+        height: auto;
+        width: 100%;
+        
+      }
+
+   
+    .white-nav{
+        height: 80px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .logo{
+        height: 80px;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+       
+    }
+    .logo img{
+        height: 80px;
+        width: 150px;
+    }
+    
+    .content li:nth-child(1){
+       display:none;
+
+    }
+    .content li:nth-child(2){
+        display:none;
+ 
+    } .content li:nth-child(3){
+        display:none;
+ 
+    } .content li:nth-child(4){
+        display:none;
+ 
+    }
+    .content li:nth-child(5){
+        display:none;
+ 
+    }
+    .content button{
+        height: 35px;
+        width: 80px;
+        font-size: 13px;
+        margin-left: 150px;
+        
+    }
+
+    .mid-section{
+        height: 350px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        margin-top: 40px;
+    }
+
+    .image-section{
+        height: 100px;
+        width: 100%;
+       
+    }
+    .image-section img{
+        height: 300px;
+
+        width: 300px;
+    }
+    .text-section{
+        height: 60px;
+        width: 100%;
+
+    }
+    .text-section h1{
+        font-size: 33px;
+    }
+    .text-section p{
+        font-size: 17px;
+    }
+    .button-section{
+        height: 50px;
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 120px;
+    }
+    .start-button{
+        height: 40px;
+        width: 90px;
+
+
+    }
+    .start-button button{
+        height: 40px;
+        width: 90px;
+        font-size: 13px;
+        
+       
+    }
+    .learn-button{
+        height: 40px;
+        width: 90px;
+
+    }
+    .learn-button button{
+        height: 40px;
+        width: 90px;
+        font-size: 2px;
+    }
+    .featured-section{
+        height: 400px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        margin-top: 70px;
+    }
+    .featured-section h1{
+        font-size: 40px;
+    }
+    .feature-logo{
+        height: 100px;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .feature-logo img{
+        height: 70px;
+        width: 140px;
+    }
+    .featured-logo li:first-child{
+        margin-top: 30px;
+    }
+    .feature-logo li:nth-child(5){
+        display: none;
+    }
+}
